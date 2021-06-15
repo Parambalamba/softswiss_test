@@ -1,0 +1,22 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+@media (max-width: 768px) {
+	#main div.container {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+@media (max-width: 705px) {
+	.filters-item {
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.filters-item div {
+		width: 100%;
+	}
+	.table-head {
+		flex-wrap: wrap;
+	}
+	.table-head div {
+		width: auto;
+	}
+}
