@@ -68,7 +68,7 @@ $terms = get_terms('restaurant_types');
 								<div class="d-flex flex-row col-md-12 filters-item border border-top-0 border-secondary justify-content-between" data-filter="<?= $cat_name['slug']; ?>">
 									<div class="p-2 col-md-auto"><?= $id; ?></div>
 									<div class="p-2 col-md-3 col-sm-3 grow d-flex flex-wrap"><?= get_the_post_thumbnail(null, 'mytheme-mini'); ?><div class="ml-1"><?= get_the_title(); ?></div></div>
-									<div class="p-2 col-md-auto"><?= $cat_name['name']; ?></div>
+									<div class="p-2 col-md-auto"><span class="<?= $cat_name['slug']; ?>"><?= $cat_name['name']; ?></span></div>
 									<div class="p-2 col-md-auto col-sm-auto"><?= get_field('start_date'); ?></div>
 									<div class="p-2 col-md-auto col-sm-auto"><?= get_field('end_date'); ?></div>
 									<div class="p-2 col-md-auto"><?= get_field('total'); ?></div>

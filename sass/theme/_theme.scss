@@ -1,4 +1,62 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+body {
+	background-color: #f2f3f4;
+}
+
+.table-head,
+#content-items {
+	background-color: #fff;
+}
+#main-nav {
+	background-color: #000;
+}
+
+.filters-item:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  background-color: #fff;
+  border-top: 1px solid #6c757d!important;
+}
+
+.filters-item:not(:hover) {
+	opacity: 0.8;
+}
+
+#searchsubmit {
+	background-color: #000;
+	border: 1px solid #000;
+}
+
+a.nav-link {
+	color: rgba(255,255,255,1)!important;
+}
+#main-menu li.active {
+	background-color: #6c757d!important;
+	border-radius: 2px!important;
+}
+.ongoing {
+	background-color: #6c757d;
+	padding: 4px 4px;
+	border-radius: 15px;
+	text-transform: uppercase;
+}
+
+.verified {
+	background-color: #008000;
+	padding: 4px 4px;
+	border-radius: 15px;
+	color:  #fff;
+	text-transform: uppercase;
+}
+
+.pending {
+	background-color: #ffa500;
+	padding: 4px 4px;
+	border-radius: 15px;
+	color:  #fff;
+	text-transform: uppercase;
+}
 @media (max-width: 768px) {
 	#main div.container {
 		width: 100%;
